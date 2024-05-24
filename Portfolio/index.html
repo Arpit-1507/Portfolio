@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpit - Developer Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            text-decoration: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(141, 141, 244);
+            font-size: 1.02rem;
+            cursor: pointer;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 32%;
+        }
+
+        .leftsection {
+            font-size: 2.6rem;
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(131, 131, 236);
+        }
+
+        #element {
+            color: rgb(131, 131, 236);
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            display: flex;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+        }
+
+        .secondsection .verticleline {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .verticle-title {
+            position: relative;
+            top: 80px;
+            width: 150px;
+        }
+
+        .verticle-desc {
+            position: relative;
+            top: 10px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        .footer {
+            background-color: #0e0e1a;
+            height: 133px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 23px 122px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Arpit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name is <span class="purple">Arpit</span>
+                <div>And I Am a Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github Profile</button>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="bg.png.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have Done So For</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="verticleline">
+                    <img class="image-top" src="developer.png.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2012-20)
+                        <div class="verticle-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate similique nobis
+                            pariatur at
+                            amet molestias voluptate labore, temporibus dignissimos inventore, laudantium fugiat id
+                        </div>
+                    </div>
+                </div>
+                <div class="verticleline">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2012-20)
+                        <div class="verticle-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate similique nobis
+                            pariatur at
+                            amet molestias voluptate labore, temporibus dignissimos inventore, laudantium fugiat id
+                        </div>
+                    </div>
+                </div>
+                <div class="verticleline">
+                    <img class="image-top" src="facebook.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2012-20)
+                        <div class="verticle-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate similique nobis
+                            pariatur at
+                            amet molestias voluptate labore, temporibus dignissimos inventore, laudantium fugiat id
+                        </div>
+                    </div>
+                </div>
+                <div class="verticleline">
+                    <img class="image-top" src="instagram.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2012-20)
+                        <div class="verticle-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate similique nobis
+                            pariatur at
+                            amet molestias voluptate labore, temporibus dignissimos inventore, laudantium fugiat id
+                        </div>
+                    </div>
+                </div>
+                <div class="verticleline">
+                    <img class="image-top" src="twitter.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2012-20)
+                        <div class="verticle-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate similique nobis
+                            pariatur at
+                            amet molestias voluptate labore, temporibus dignissimos inventore, laudantium fugiat id
+                        </div>
+                    </div>
+                </div>
+                <div class="verticleline">
+                    <img class="image-top" src="whatsapp.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2012-20)
+                        <div class="verticle-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate similique nobis
+                            pariatur at
+                            amet molestias voluptate labore, temporibus dignissimos inventore, laudantium fugiat id
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Arpit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Now More</li>
+                    <li>Jobs</li>
+                    <li>Interviewer</li>
+                    <li>Internship</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Now More</li>
+                    <li>Jobs</li>
+                    <li>Interviewer</li>
+                    <li>Internship</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Now More</li>
+                    <li>Jobs</li>
+                    <li>Interviewer</li>
+                    <li>Internship</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyrights &#169; www.arpitportfolio.comm | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
